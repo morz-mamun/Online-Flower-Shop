@@ -1,8 +1,92 @@
 /* Common styles */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
+
 /* Common styles end */
+
+/* header styles */
+.header {
+    background-color: rgb(231, 225, 215);
+    color: black;
+    margin-bottom: 150px;
+}
+
+.shop-name {
+    padding-right: 430px;
+}
+
+nav {
+    background-color: rgb(14, 13, 13);
+    color: white;
+    font-weight: bold;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-bar li {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.items {
+    margin-left: 35px;
+}
+
+.items:hover {
+    color: red;
+}
+
+/* banner stylins */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 240px;
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn{
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: red;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+.banner-pic{
+    margin-top: 50px;
+    position: relative;
+    left: 100px;
+}
+/* banner stylins end */
+
+/* header styles end */
