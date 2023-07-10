@@ -9,7 +9,7 @@
 /* Common styles end */
 
 /* header styles */
-.header {
+.header, .middle-hotdeal{
     background-color: rgb(231, 225, 215);
     color: black;
     margin-bottom: 150px;
@@ -28,7 +28,6 @@ nav {
 .nav-container {
     display: flex;
     justify-content: space-around;
-
     align-items: center;
     padding: 10px;
 }
@@ -95,6 +94,7 @@ nav {
 /* featured style */
 .container {
     margin: 0 240px;
+    margin-bottom: 130px;
 }
 
 .title {
@@ -108,16 +108,16 @@ nav {
 
 .featured-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .box {
-    width: 400px;
+    width: 450px;
     height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 100px 50px 0 50px;
+    padding: 100px 70px 0 70px;
     margin-top: 15px;
 }
 
@@ -137,13 +137,60 @@ nav {
 
 .pic-text {
     text-align: center;
-    margin-bottom: 130px;
 }
 
-/* .text-pic{
+/* featured style end */
+
+/* delivery style */
+
+
+.delivary-container {
+    background: rgba(39, 39, 39, 0.05);
+    ;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon-pic {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.delivary-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.icon{
+    text-align: center;
+}
+/* deliver style end */
+
+/* middle hot deal style */
+.middle-hotdeal{
+    height:600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-} */
+    margin-bottom: 130px;
+}
+.middle-left{
+    margin-top: 230px;
+}
+/* middle hot deal end */
 
-/* featured style end */
+/* instragram section style */
+.instragram-pic{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.instragram-text{
+    text-align: center;
+}
+/* instragram section style end */
