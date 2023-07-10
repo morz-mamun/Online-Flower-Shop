@@ -14,7 +14,10 @@
     color: black;
     margin-bottom: 150px;
 }
-
+.container {
+    margin: 0 240px;
+    margin-bottom: 130px;
+}
 .shop-name {
     padding-right: 430px;
 }
@@ -29,7 +32,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .nav-bar li {
@@ -92,10 +95,7 @@ nav {
 /* header styles end */
 
 /* featured style */
-.container {
-    margin: 0 240px;
-    margin-bottom: 130px;
-}
+
 
 .title {
     font-size: 40px;
@@ -194,3 +194,39 @@ nav {
     text-align: center;
 }
 /* instragram section style end */
+
+/* latest deal section style */
+.last-container{
+    height: 450px;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.last-tex{
+    align-items: center;
+}
+.input-email{
+    width: 50%;
+    padding: 25px;
+    border: 0;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+/* latest deal section style */
+
+/* footer style */
+.footer{
+    background: #111010;
+    height: 450px;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.copy{
+    color: rgb(93, 90, 90)
+}
+/* footer style end */
