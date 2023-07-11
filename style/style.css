@@ -189,7 +189,10 @@ nav {
     justify-content: space-around;
     margin-top: 50px;
 }
-
+.ins-pic{
+    box-shadow: 5px 10px 15px #a09f9f;
+    
+}
 .instragram-text{
     text-align: center;
 }
