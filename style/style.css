@@ -5,18 +5,18 @@
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
-
 /* Common styles end */
 
 /* header styles */
 .header, .middle-hotdeal{
-    background-color: rgb(231, 225, 215);
+    background-color: antiquewhite;
     color: black;
     margin-bottom: 150px;
 }
 .container {
     margin: 0 240px;
     margin-bottom: 130px;
+    border-radius: 5px;
 }
 .shop-name {
     padding-right: 430px;
