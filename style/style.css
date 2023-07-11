@@ -261,4 +261,13 @@ font-size: 30px;
 .p{
     color:rgba(39, 39, 39, 0.60);
 }
+.btn-1{
+    padding: 10px 15px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
 /* bonus part style end */
